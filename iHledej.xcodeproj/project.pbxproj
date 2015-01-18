@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD89BF071A6679E300C5B81E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89BF061A6679E300C5B81E /* AppDelegate.swift */; };
+		DD89BF0A1A6679E300C5B81E /* iHledej.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD89BF081A6679E300C5B81E /* iHledej.xcdatamodeld */; };
+		DD89BF0C1A6679E300C5B81E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89BF0B1A6679E300C5B81E /* TableViewController.swift */; };
+		DD89BF0F1A6679E300C5B81E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD89BF0D1A6679E300C5B81E /* Main.storyboard */; };
+		DD89BF111A6679E300C5B81E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD89BF101A6679E300C5B81E /* Images.xcassets */; };
+		DD89BF141A6679E300C5B81E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD89BF121A6679E300C5B81E /* LaunchScreen.xib */; };
+		DD89BF201A6679E400C5B81E /* iHledejTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89BF1F1A6679E400C5B81E /* iHledejTests.swift */; };
+		DD89BF2A1A667C9400C5B81E /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89BF291A667C9400C5B81E /* ImageViewCell.swift */; };
+		DD89BF2C1A667DCA00C5B81E /* GOPR1173_HDR.tif in Resources */ = {isa = PBXBuildFile; fileRef = DD89BF2B1A667DCA00C5B81E /* GOPR1173_HDR.tif */; };
+		DD89BF2E1A69859200C5B81E /* noImages.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD89BF2D1A69859200C5B81E /* noImages.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD89BF1A1A6679E400C5B81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD89BEF91A6679E300C5B81E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD89BF001A6679E300C5B81E;
+			remoteInfo = iHledej;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD89BF011A6679E300C5B81E /* iHledej.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHledej.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD89BF051A6679E300C5B81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD89BF061A6679E300C5B81E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD89BF091A6679E300C5B81E /* iHledej.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iHledej.xcdatamodel; sourceTree = "<group>"; };
+		DD89BF0B1A6679E300C5B81E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DD89BF0E1A6679E300C5B81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD89BF101A6679E300C5B81E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD89BF131A6679E300C5B81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD89BF191A6679E400C5B81E /* iHledejTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHledejTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD89BF1E1A6679E400C5B81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD89BF1F1A6679E400C5B81E /* iHledejTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHledejTests.swift; sourceTree = "<group>"; };
+		DD89BF291A667C9400C5B81E /* ImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		DD89BF2B1A667DCA00C5B81E /* GOPR1173_HDR.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = GOPR1173_HDR.tif; path = ../../GOPR1173_HDR.tif; sourceTree = "<group>"; };
+		DD89BF2D1A69859200C5B81E /* noImages.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noImages.jpg; path = ../../../Downloads/noImages.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD89BEFE1A6679E300C5B81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD89BF161A6679E400C5B81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD89BEF81A6679E300C5B81E = {
+			isa = PBXGroup;
+			children = (
+				DD89BF031A6679E300C5B81E /* iHledej */,
+				DD89BF1C1A6679E400C5B81E /* iHledejTests */,
+				DD89BF021A6679E300C5B81E /* Products */,
+				DD89BF2B1A667DCA00C5B81E /* GOPR1173_HDR.tif */,
+				DD89BF2D1A69859200C5B81E /* noImages.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		DD89BF021A6679E300C5B81E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD89BF011A6679E300C5B81E /* iHledej.app */,
+				DD89BF191A6679E400C5B81E /* iHledejTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD89BF031A6679E300C5B81E /* iHledej */ = {
+			isa = PBXGroup;
+			children = (
+				DD89BF061A6679E300C5B81E /* AppDelegate.swift */,
+				DD89BF291A667C9400C5B81E /* ImageViewCell.swift */,
+				DD89BF0B1A6679E300C5B81E /* TableViewController.swift */,
+				DD89BF0D1A6679E300C5B81E /* Main.storyboard */,
+				DD89BF101A6679E300C5B81E /* Images.xcassets */,
+				DD89BF121A6679E300C5B81E /* LaunchScreen.xib */,
+				DD89BF081A6679E300C5B81E /* iHledej.xcdatamodeld */,
+				DD89BF041A6679E300C5B81E /* Supporting Files */,
+			);
+			path = iHledej;
+			sourceTree = "<group>";
+		};
+		DD89BF041A6679E300C5B81E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD89BF051A6679E300C5B81E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD89BF1C1A6679E400C5B81E /* iHledejTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD89BF1F1A6679E400C5B81E /* iHledejTests.swift */,
+				DD89BF1D1A6679E400C5B81E /* Supporting Files */,
+			);
+			path = iHledejTests;
+			sourceTree = "<group>";
+		};
+		DD89BF1D1A6679E400C5B81E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD89BF1E1A6679E400C5B81E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD89BF001A6679E300C5B81E /* iHledej */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD89BF231A6679E400C5B81E /* Build configuration list for PBXNativeTarget "iHledej" */;
+			buildPhases = (
+				DD89BEFD1A6679E300C5B81E /* Sources */,
+				DD89BEFE1A6679E300C5B81E /* Frameworks */,
+				DD89BEFF1A6679E300C5B81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHledej;
+			productName = iHledej;
+			productReference = DD89BF011A6679E300C5B81E /* iHledej.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD89BF181A6679E400C5B81E /* iHledejTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD89BF261A6679E400C5B81E /* Build configuration list for PBXNativeTarget "iHledejTests" */;
+			buildPhases = (
+				DD89BF151A6679E400C5B81E /* Sources */,
+				DD89BF161A6679E400C5B81E /* Frameworks */,
+				DD89BF171A6679E400C5B81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD89BF1B1A6679E400C5B81E /* PBXTargetDependency */,
+			);
+			name = iHledejTests;
+			productName = iHledejTests;
+			productReference = DD89BF191A6679E400C5B81E /* iHledejTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD89BEF91A6679E300C5B81E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = kutasov;
+				TargetAttributes = {
+					DD89BF001A6679E300C5B81E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DD89BF181A6679E400C5B81E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DD89BF001A6679E300C5B81E;
+					};
+				};
+			};
+			buildConfigurationList = DD89BEFC1A6679E300C5B81E /* Build configuration list for PBXProject "iHledej" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD89BEF81A6679E300C5B81E;
+			productRefGroup = DD89BF021A6679E300C5B81E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD89BF001A6679E300C5B81E /* iHledej */,
+				DD89BF181A6679E400C5B81E /* iHledejTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD89BEFF1A6679E300C5B81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD89BF2E1A69859200C5B81E /* noImages.jpg in Resources */,
+				DD89BF0F1A6679E300C5B81E /* Main.storyboard in Resources */,
+				DD89BF141A6679E300C5B81E /* LaunchScreen.xib in Resources */,
+				DD89BF2C1A667DCA00C5B81E /* GOPR1173_HDR.tif in Resources */,
+				DD89BF111A6679E300C5B81E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD89BF171A6679E400C5B81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD89BEFD1A6679E300C5B81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD89BF2A1A667C9400C5B81E /* ImageViewCell.swift in Sources */,
+				DD89BF0C1A6679E300C5B81E /* TableViewController.swift in Sources */,
+				DD89BF071A6679E300C5B81E /* AppDelegate.swift in Sources */,
+				DD89BF0A1A6679E300C5B81E /* iHledej.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD89BF151A6679E400C5B81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD89BF201A6679E400C5B81E /* iHledejTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD89BF1B1A6679E400C5B81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD89BF001A6679E300C5B81E /* iHledej */;
+			targetProxy = DD89BF1A1A6679E400C5B81E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD89BF0D1A6679E300C5B81E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD89BF0E1A6679E300C5B81E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD89BF121A6679E300C5B81E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD89BF131A6679E300C5B81E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD89BF211A6679E400C5B81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD89BF221A6679E400C5B81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD89BF241A6679E400C5B81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iHledej/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD89BF251A6679E400C5B81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iHledej/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD89BF271A6679E400C5B81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iHledejTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHledej.app/iHledej";
+			};
+			name = Debug;
+		};
+		DD89BF281A6679E400C5B81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iHledejTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHledej.app/iHledej";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD89BEFC1A6679E300C5B81E /* Build configuration list for PBXProject "iHledej" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD89BF211A6679E400C5B81E /* Debug */,
+				DD89BF221A6679E400C5B81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD89BF231A6679E400C5B81E /* Build configuration list for PBXNativeTarget "iHledej" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD89BF241A6679E400C5B81E /* Debug */,
+				DD89BF251A6679E400C5B81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD89BF261A6679E400C5B81E /* Build configuration list for PBXNativeTarget "iHledejTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD89BF271A6679E400C5B81E /* Debug */,
+				DD89BF281A6679E400C5B81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD89BF081A6679E300C5B81E /* iHledej.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD89BF091A6679E300C5B81E /* iHledej.xcdatamodel */,
+			);
+			currentVersion = DD89BF091A6679E300C5B81E /* iHledej.xcdatamodel */;
+			path = iHledej.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD89BEF91A6679E300C5B81E /* Project object */;
+}
