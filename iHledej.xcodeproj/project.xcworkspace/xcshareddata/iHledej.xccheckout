@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>126104F3-A788-4871-BB3F-A2C0225D17FE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iHledej</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0B792C5B971CA86635AA8DF45111E3399C9C3D07</key>
+		<string>https://github.com/kutasiva/obrazky.cz.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iHledej.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0B792C5B971CA86635AA8DF45111E3399C9C3D07</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kutasiva/obrazky.cz.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0B792C5B971CA86635AA8DF45111E3399C9C3D07</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0B792C5B971CA86635AA8DF45111E3399C9C3D07</string>
+			<key>IDESourceControlWCCName</key>
+			<string>obrazky.cz</string>
+		</dict>
+	</array>
+</dict>
+</plist>

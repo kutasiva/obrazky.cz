@@ -15,7 +15,6 @@
 		DD89BF141A6679E300C5B81E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD89BF121A6679E300C5B81E /* LaunchScreen.xib */; };
 		DD89BF201A6679E400C5B81E /* iHledejTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89BF1F1A6679E400C5B81E /* iHledejTests.swift */; };
 		DD89BF2A1A667C9400C5B81E /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89BF291A667C9400C5B81E /* ImageViewCell.swift */; };
-		DD89BF2C1A667DCA00C5B81E /* GOPR1173_HDR.tif in Resources */ = {isa = PBXBuildFile; fileRef = DD89BF2B1A667DCA00C5B81E /* GOPR1173_HDR.tif */; };
 		DD89BF2E1A69859200C5B81E /* noImages.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD89BF2D1A69859200C5B81E /* noImages.jpg */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +41,7 @@
 		DD89BF1E1A6679E400C5B81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD89BF1F1A6679E400C5B81E /* iHledejTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHledejTests.swift; sourceTree = "<group>"; };
 		DD89BF291A667C9400C5B81E /* ImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
-		DD89BF2B1A667DCA00C5B81E /* GOPR1173_HDR.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = GOPR1173_HDR.tif; path = ../../GOPR1173_HDR.tif; sourceTree = "<group>"; };
-		DD89BF2D1A69859200C5B81E /* noImages.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noImages.jpg; path = ../../../Downloads/noImages.jpg; sourceTree = "<group>"; };
+		DD89BF2D1A69859200C5B81E /* noImages.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noImages.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 				DD89BF031A6679E300C5B81E /* iHledej */,
 				DD89BF1C1A6679E400C5B81E /* iHledejTests */,
 				DD89BF021A6679E300C5B81E /* Products */,
-				DD89BF2B1A667DCA00C5B81E /* GOPR1173_HDR.tif */,
 				DD89BF2D1A69859200C5B81E /* noImages.jpg */,
 			);
 			sourceTree = "<group>";
@@ -207,7 +204,6 @@
 				DD89BF2E1A69859200C5B81E /* noImages.jpg in Resources */,
 				DD89BF0F1A6679E300C5B81E /* Main.storyboard in Resources */,
 				DD89BF141A6679E300C5B81E /* LaunchScreen.xib in Resources */,
-				DD89BF2C1A667DCA00C5B81E /* GOPR1173_HDR.tif in Resources */,
 				DD89BF111A6679E300C5B81E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
